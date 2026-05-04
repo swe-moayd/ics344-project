@@ -17,8 +17,11 @@ This repository contains the course project work for ICS-344. It documents the d
 
 ## Project Summary
 
-This project focuses on analyzing the OWASP DVSA, a deliberately vulnerable serverless application deployed on AWS, with the objective of performing practical security testing in a cloud environment. The work includes identifying vulnerabilities, demonstrating their exploitation, proposing mitigation strategies, documenting implementation details, and validating fixes after remediation. The DVSA system is built using several AWS services, including Amazon S3 for hosting frontend assets and storing files, Amazon API Gateway for exposing application endpoints, AWS Lambda for executing backend logic, Amazon DynamoDB for managing application and order data, Amazon Cognito for authentication and token-based sessions, and Amazon CloudWatch for logging and monitoring system activity. Each lesson follows a structured methodology that begins with defining the vulnerability goal and root cause, then describing the environment and reproduction steps, followed by presenting evidence, proposing and applying fixes, verifying the solution, conducting structured analysis, and concluding with key lessons learned.
---
+This project analyzes the OWASP DVSA, a deliberately vulnerable serverless application deployed on AWS. The goal is to perform practical cloud security testing by identifying vulnerabilities, demonstrating exploitation, proposing mitigations, documenting fixes, and verifying the results after remediation.
+
+The DVSA system uses Amazon S3, Amazon API Gateway, AWS Lambda, Amazon DynamoDB, Amazon Cognito, and Amazon CloudWatch. Each lesson follows a structured report format covering the vulnerability summary, root cause, environment setup, reproduction steps, evidence, mitigation strategy, implementation changes, verification, analysis, and lessons learned.
+
+---
 
 ## Repository Layout
 
