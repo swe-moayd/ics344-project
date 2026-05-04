@@ -18,7 +18,7 @@ This repository contains the course project work for ICS-344. It documents the d
 ## Project Summary
 
 This project focuses on analyzing the OWASP DVSA, a deliberately vulnerable serverless application deployed on AWS, with the objective of performing practical security testing in a cloud environment. The work includes identifying vulnerabilities, demonstrating their exploitation, proposing mitigation strategies, documenting implementation details, and validating fixes after remediation. The DVSA system is built using several AWS services, including Amazon S3 for hosting frontend assets and storing files, Amazon API Gateway for exposing application endpoints, AWS Lambda for executing backend logic, Amazon DynamoDB for managing application and order data, Amazon Cognito for authentication and token-based sessions, and Amazon CloudWatch for logging and monitoring system activity. Each lesson follows a structured methodology that begins with defining the vulnerability goal and root cause, then describing the environment and reproduction steps, followed by presenting evidence, proposing and applying fixes, verifying the solution, conducting structured analysis, and concluding with key lessons learned.
----
+--
 
 ## Repository Layout
 
@@ -59,16 +59,16 @@ Every lesson folder contains a README for that vulnerability. Folders with compl
 
 | # | Lesson Folder | Vulnerability Topic | Short Description |
 | --- | --- | --- | --- |
-| 1 | [Lesson#01](Lesson#01/README.md) | Event Injection | User-supplied event data can be manipulated to alter how backend functions execute, leading to unintended behavior. |
-| 2 | [Lesson#02](Lesson#02/README.md) | Broken Authentication | Weak validation of authentication tokens may allow attackers to modify or misuse identity information. |
-| 3 | [Lesson#03](Lesson#03/README.md) | Sensitive Data Exposure | Features related to receipts may unintentionally reveal protected data or access links belonging to other users. |
-| 4 | [Lesson#04](Lesson#04/README.md) | Insecure Cloud Configuration | Misconfigured cloud resources or permissions can enable unauthorized uploads or trigger unintended processes. |
-| 5 | [Lesson#05](Lesson#05/README.md) | Broken Access Control | Internal backend operations can be accessed by regular users, allowing unauthorized modification of order states. |
-| 6 | [Lesson#06](Lesson#06/README.md) | Denial of Service | Excessive or repeated requests can overwhelm system resources and disrupt normal application functionality. |
-| 7 | [Lesson#07](Lesson#07/README.md) | Over-Privileged Function | A Lambda function is granted more permissions than necessary, increasing risk if it is exploited. |
-| 8 | [Lesson#08](Lesson#08/README.md) | Logic Vulnerability | A timing issue between billing and order updates can lead to inconsistent or incorrect order results. |
-| 9 | [Lesson#09](Lesson#09/README.md) | Vulnerable Dependencies | Using insecure or outdated libraries may introduce serious risks such as code execution or unsafe data handling. |
-| 10 | [Lesson#10](Lesson#10/README.md) | Unhandled Exceptions | Improper error handling can expose sensitive internal details such as file paths or system information. |
+| 1 | [Lesson#01](Lesson%2301/README.md) | Event Injection | User-supplied event data can be manipulated to alter how backend functions execute, leading to unintended behavior. |
+| 2 | [Lesson#02](Lesson%2302/README.md) | Broken Authentication | Weak validation of authentication tokens may allow attackers to modify or misuse identity information. |
+| 3 | [Lesson#03](Lesson%2303/README.md) | Sensitive Data Exposure | Features related to receipts may unintentionally reveal protected data or access links belonging to other users. |
+| 4 | [Lesson#04](Lesson%2304/README.md) | Insecure Cloud Configuration | Misconfigured cloud resources or permissions can enable unauthorized uploads or trigger unintended processes. |
+| 5 | [Lesson#05](Lesson%2305/README.md) | Broken Access Control | Internal backend operations can be accessed by regular users, allowing unauthorized modification of order states. |
+| 6 | [Lesson#06](Lesson%2306/README.md) | Denial of Service | Excessive or repeated requests can overwhelm system resources and disrupt normal application functionality. |
+| 7 | [Lesson#07](Lesson%2307/README.md) | Over-Privileged Function | A Lambda function is granted more permissions than necessary, increasing risk if it is exploited. |
+| 8 | [Lesson#08](Lesson%2308/README.md) | Logic Vulnerability | A timing issue between billing and order updates can lead to inconsistent or incorrect order results. |
+| 9 | [Lesson#09](Lesson%2309/README.md) | Vulnerable Dependencies | Using insecure or outdated libraries may introduce serious risks such as code execution or unsafe data handling. |
+| 10 | [Lesson#10](Lesson%2310/README.md) | Unhandled Exceptions | Improper error handling can expose sensitive internal details such as file paths or system information. |
 
 ---
 ##
