@@ -75,7 +75,7 @@ Every lesson folder contains a README for that vulnerability. Folders with compl
 | 8 | [Lesson#08](Lesson%2308/README.md) | Logic Vulnerability | A timing issue between billing and order updates can lead to inconsistent or incorrect order results. |
 | 9 | [Lesson#09](Lesson%2309/README.md) | Vulnerable Dependencies | Using insecure or outdated libraries may introduce serious risks such as code execution or unsafe data handling. |
 | 10 | [Lesson#10](Lesson%2310/README.md) | Unhandled Exceptions | Improper error handling can expose sensitive internal details such as file paths or system information. |
-| 11 | [Lesson#11](Lesson%2311/README.md) | Broken Access Control (Direct Database Bypass) | Direct DynamoDB order-status updates can bypass checkout and payment workflow, allowing unauthorized order completion. |
+| 11 | [Lesson#11](Lesson%2311/README.md) | adimn broken access | Direct DynamoDB order-status updates can bypass checkout and payment workflow, allowing unauthorized order completion. |
 
 ---
 ##

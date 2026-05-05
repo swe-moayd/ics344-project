@@ -1,4 +1,4 @@
-# Lesson #11 - Broken Access Control (Direct Database Bypass)
+# Lesson #11 - adimn broken access 
 
 ## 1-Goal and Vulnerability Summary
 
